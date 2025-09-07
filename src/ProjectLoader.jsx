@@ -47,6 +47,7 @@ const ProjectLoader = () => {
 			{projects.map((project) => (
 				<li key={project.id}>
 					<a href={project.link}>{project.name}</a>
+					<p>{project.description}</p>
 				</li>
 			))}
 		</ul>
